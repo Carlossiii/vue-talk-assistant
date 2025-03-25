@@ -26,7 +26,7 @@
       <div class="fixed bottom-0 mb-2">
         <button
           @click="handleErase"
-          class="bg-red-500 text-xl font-semibold p-3 m-2 rounded-xl cursor-pointer hover:brightness-125 transition-all duration-200"
+          class="bg-red-500 text-white text-xl font-semibold p-3 m-2 rounded-xl cursor-pointer hover:brightness-125 transition-all duration-200"
         >
           Apagar
         </button>
@@ -106,6 +106,8 @@ const words = [
   { word: "Mário", image: "" },
   { word: "Nelsinho", image: "" },
   { word: "Neide", image: "" },
+  { word: "Cilecina", image: "" },
+  { word: "Perpétua", image: "" },
 ];
 
 const handleWordClick = (word: string, image: string | null) => {
